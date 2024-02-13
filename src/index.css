@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
+
+body {
+	background-color: black;
+	color: white;
+	max-height: 100vh;
+	overflow: auto;
+}
+
+@layer components {
+	.linkInHeader {
+		@apply flex items-center text-slate-300 hover:text-white transition-colors duration-[500ms];
+	}
+}
