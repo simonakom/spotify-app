@@ -17,7 +17,6 @@ body {
 	position: relative;
 	display: inline-block;
 }
-
 .tooltip .tooltiptext {
 	visibility: hidden;
 	min-width: 160px;
@@ -36,24 +35,20 @@ body {
 	left: 45%;
 	margin-left: -60px;
 }
-
 .tooltip:hover .tooltiptext {
 	visibility: visible;
 }
-
 .scrollable-container {
 	max-height: 90%;
 	overflow-y: auto;
 }
-
 .text-size {
 	font-size: 11px;
 	color:#a2a2a2;
 }
-
 .hover:fill-white:hover {
     fill: #ffffff; 
 }
 .not-allowed-cursor {
 	cursor: not-allowed;
-  }
+}
