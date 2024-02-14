@@ -4,7 +4,7 @@ import PanelHeader from "./PanelHeader/PanelHeader";
 
 function LeftPanel() {
 	return (
-		<div className="flex flex-col min-h-[100vh] w-1/4">
+		<div className="flex flex-col h-[130vh] min-w-[380px]">
 			<PanelHeader />
 			<PanelBody />
 			<PanelFooter />

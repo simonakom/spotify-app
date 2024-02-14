@@ -8,9 +8,52 @@ body {
 	max-height: 100vh;
 	overflow: auto;
 }
-
 @layer components {
 	.linkInHeader {
 		@apply flex items-center text-slate-300 hover:text-white transition-colors duration-[500ms];
 	}
 }
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	min-width: 160px;
+	background-color: #242424;
+	color: #fff;
+	text-align: center;
+	border-radius: 4px;
+	padding: 5px;
+	font-size: 13px;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	width: 120px;
+	bottom: 130%;
+	left: 45%;
+	margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.scrollable-container {
+	max-height: 90%;
+	overflow-y: auto;
+}
+
+.text-size {
+	font-size: 11px;
+	color:#a2a2a2;
+}
+
+.hover:fill-white:hover {
+    fill: #ffffff; 
+}
+.not-allowed-cursor {
+	cursor: not-allowed;
+  }
