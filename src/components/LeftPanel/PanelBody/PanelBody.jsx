@@ -11,7 +11,7 @@ function CardComponent({ title, description, buttonText }) {
 }
 function PanelBody() {
 	return (
-	<div className="bg-[#121212] max-h-[34%] rounded-t-lg p-2 mt-2 pb-6">
+	<div className="bg-[#121212] max-h-[379px] rounded-t-lg p-2 mt-2 pb-6">
 
 		<div className="flex justify-between text-zinc-400 font-medium mb-3">
 			<span class="hover:text-white transition-colors duration-500 flex items-center cursor-pointer tooltip px-3 pt-2">

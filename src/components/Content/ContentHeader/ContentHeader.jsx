@@ -16,7 +16,7 @@ function LeftButtons() {
 }
 function RightButtons() {
 	return (
-		<div className="pr-8 mb-20">
+		<div className="pr-8 mb-20   ">
 			<button className="bg-[#101010] text-[#a0a0a0] mr-8 font-semibold hover:text-white hover:scale-105">Sign up</button>
 			<button className="bg-[#ffffff] text-[#101010] rounded-full font-semibold px-8 py-3 hover:scale-105">Log in</button>
 		</div>

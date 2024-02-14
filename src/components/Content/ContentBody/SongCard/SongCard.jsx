@@ -7,7 +7,7 @@ function SongCard(props) { //console.log(props)
 	}
 	return (
 		<a href={props.song.link || "https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz"}>
-			<div className="bg-[#161616] p-4 w-fit rounded-lg min-w-[190px] min-h-[270px] hover:bg-neutral-800 duration-200 ">
+			<div className="bg-[#161616] p-4 w-fit rounded-lg max-w-[220px] min-h-[270px] hover:bg-neutral-800 duration-200 ">
 				<img
 					src={props.song.src || Cover}
 					alt="Playlist Card"
