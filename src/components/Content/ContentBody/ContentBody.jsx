@@ -42,13 +42,13 @@ function ContentBody() {
 		},	
 	];
 return (
-    <div className="bg-gradient-to-b from-[#1f1f1f] to-[#121212] rounded-b-lg h-[666px] overflow-auto overflow-x-hidden">
-      <div className="mt-2 flex justify-between">
-        <a href="https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz" className="font-semibold text-2xl px-6 hover:underline">Spotify Playlists</a>
-        <a href="https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz" className="font-semibold text-zinc-400 text-sm px-6 pt-2 hover:underline">Show all</a>
+    <div className="bg-gradient-to-b from-[#1f1f1f] to-[#121212] rounded-b-lg h-[660px] overflow-auto overflow-x-hidden">
+      <div className="mt-1 flex justify-between">
+        <a href="https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz" className="font-semibold text-2xl px-5 hover:underline">Spotify Playlists</a>
+        <a href="https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz" className="font-semibold text-zinc-400 text-sm px-5 pt-2 hover:underline">Show all</a>
       </div>
       <div className="flex flex-col">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-6 mx-3 my-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-6 mx-5 my-1">
           {songsArray.map((song, index) => (
             <SongCard
               song={song}
@@ -57,7 +57,7 @@ return (
           ))}
         </div>
       </div>
-      <div class="flex flex-col md:flex-row justify-between px-4 md:px-9 mt-16">
+      <div class="flex flex-col md:flex-row justify-between px-4 md:px-9 mt-20">
       <div class="flex flex-col md:flex-row gap-4 md:gap-x-28">
           <div className="flex flex-col text-zinc-400 font-light gap-1">
             <p className="font-medium text-white pb-1">Company</p>

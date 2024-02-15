@@ -26,6 +26,7 @@ body {
 	border-radius: 4px;
 	padding: 5px;
 	font-size: 13px;
+	
 
 	/* Position the tooltip */
 	position: absolute;
@@ -34,9 +35,14 @@ body {
 	bottom: 130%;
 	left: 45%;
 	margin-left: -60px;
+
+	/* Transition */
+	opacity: 0;
+	transition: opacity 0.5s ease; 
 }
 .tooltip:hover .tooltiptext {
 	visibility: visible;
+	opacity: 1;
 }
 .scrollable-container {
 	max-height: 90%;
@@ -58,4 +64,8 @@ body {
     .hide-buttons {
         display: none;
     }
+}
+
+.footerBacground {
+background-image: linear-gradient(90deg,#af2896,#509bf5);
 }
