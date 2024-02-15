@@ -6,7 +6,7 @@ body {
 	background-color: black;
 	color: white;
 	max-height: 100vh;
-	overflow: auto;
+	overflow: hidden;
 }
 @layer components {
 	.linkInHeader {
@@ -27,7 +27,6 @@ body {
 	padding: 5px;
 	font-size: 13px;
 	
-
 	/* Position the tooltip */
 	position: absolute;
 	z-index: 1;
@@ -58,14 +57,11 @@ body {
 .not-allowed-cursor {
 	cursor: not-allowed;
 }
-
-
+.footerBacground {
+background-image: linear-gradient(90deg,#af2896,#509bf5);
+}
 @media (max-width: 213px) {
     .hide-buttons {
         display: none;
     }
-}
-
-.footerBacground {
-background-image: linear-gradient(90deg,#af2896,#509bf5);
 }

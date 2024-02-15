@@ -28,8 +28,6 @@ function PanelFooter() {
 			<LanguageButton/>
 		</div>
 	</div>
-
-	
 	);
 }
 export default PanelFooter;

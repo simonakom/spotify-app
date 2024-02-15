@@ -6,10 +6,10 @@ function Layout() {
 	return (
 		<div className="flex p-2">
 			<div className="flex flex-col">
-					<div className="flex gap-2">
-						<LeftPanel />
-						<Content />
-					</div>
+				<div className="flex gap-2">
+					<LeftPanel />
+					<Content />
+				</div>
 				<Footer />
 			</div>
 		</div>

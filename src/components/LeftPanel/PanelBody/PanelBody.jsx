@@ -14,7 +14,6 @@ function CardComponent({ title, description, buttonText,link}) {
 function PanelBody() {
 	return (
 	<div className="bg-[#121212] max-h-[370px] rounded-t-lg p-2 mt-2 pb-6">
-
 		<div className="flex justify-between text-zinc-400 font-medium mb-3">
 			<span class="hover:text-white flex items-center cursor-pointer tooltip px-3 pt-2">
 				<svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="inline-block hover:fill-white mr-3 Svg-sc-ytk21e-0 bneLcE" fill="#A7A7A7" width="25" height="25">
