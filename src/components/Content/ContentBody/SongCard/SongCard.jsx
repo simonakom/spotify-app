@@ -14,7 +14,7 @@ function SongCard(props) { //console.log(props)
 					width="190px"
 					className="rounded-lg"
 				/>
-				<h3 className="mt-4 font-bold text-base">
+				<h3 className="mt-4 font-bold text-base line-clamp-1">
 					{props.song.title || "Playlist title"}
 				</h3>
 				<p className="mt-2 text-zinc-400 text-wrap line-clamp-2 text-sm" onClick={handleClick}>

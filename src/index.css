@@ -52,3 +52,10 @@ body {
 .not-allowed-cursor {
 	cursor: not-allowed;
 }
+
+
+@media (max-width: 213px) {
+    .hide-buttons {
+        display: none;
+    }
+}

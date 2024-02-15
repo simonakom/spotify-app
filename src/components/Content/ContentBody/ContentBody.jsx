@@ -42,7 +42,7 @@ function ContentBody() {
 		},	
 	];
 return (
-    <div className="bg-gradient-to-b from-[#1f1f1f] to-[#121212] rounded-b-lg h-[658px] overflow-auto overflow-x-hidden">
+    <div className="bg-gradient-to-b from-[#1f1f1f] to-[#121212] rounded-b-lg h-[666px] overflow-auto overflow-x-hidden">
       <div className="mt-2 flex justify-between">
         <a href="https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz" className="font-semibold text-2xl px-6 hover:underline">Spotify Playlists</a>
         <a href="https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz" className="font-semibold text-zinc-400 text-sm px-6 pt-2 hover:underline">Show all</a>
@@ -57,8 +57,8 @@ return (
           ))}
         </div>
       </div>
-      <div className="flex flex-row justify-between px-9 mt-16">
-        <div className="flex gap-x-28">
+      <div class="flex flex-col md:flex-row justify-between px-4 md:px-9 mt-16">
+      <div class="flex flex-col md:flex-row gap-4 md:gap-x-28">
           <div className="flex flex-col text-zinc-400 font-light gap-1">
             <p className="font-medium text-white pb-1">Company</p>
             <a href="https://www.spotify.com/it/about-us/contact/" className="hover:underline hover:text-white">About</a>
@@ -80,13 +80,13 @@ return (
             <a href="https://www.spotify.com/it/legal/end-user-agreement/#s15" className="hover:underline hover:text-white" >Consumer rights</a>
           </div>
         </div>
-        <div className="flex gap-3">
+        <div class="flex gap-3 mt-10 md:mt-0">
           <a href="https://www.instagram.com/spotify/"><div className="rounded-full bg-zinc-800 p-3 inline-block hover:bg-neutral-600"><FaInstagram className="text-lg text-white" /></div></a>
           <a href="https://twitter.com/spotify"><div className="rounded-full bg-zinc-800 p-3 inline-block hover:bg-neutral-600"><FaTwitter className="text-lg text-white" /></div></a>
           <a href="https://www.facebook.com/Spotify"><div className="rounded-full bg-zinc-800 p-3 inline-block hover:bg-neutral-600"><FaFacebook className="text-lg text-white" /></div></a>
         </div>
       </div>
-      <hr className="border-1 border-zinc-700 my-10 mx-7" />
+      <hr className="border-1 border-zinc-700 my-10 mx-6" />
       <p className="text-zinc-400 font-normal text-sm mx-8 mb-20">© 2024 Spotify AB</p>
     </div>
   );
