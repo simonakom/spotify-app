@@ -10,7 +10,7 @@ function LanguageButton() {
 }
 function PanelFooter() {
 	return (
-	<div className="bg-[#121212] rounded-b-lg mb-2 min-h-[19%] px-2 pt-8">
+	<div className="bg-[#121212] rounded-b-lg mb-2 min-h-[19%] px-2 py-5">
 		<div className="mb-3 text-size">
 			<a href="https://www.spotify.com/es/legal/end-user-agreement/" className="inline-block ml-4 ">Legal</a>
 			<a href="https://www.spotify.com/es/privacy" className="inline-block ml-4 ">Privacy center</a>
