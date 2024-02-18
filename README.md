@@ -1,5 +1,5 @@
 
-# <span style="margin-right: 10px;"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify" style="height: 2em; vertical-align: middle;"></span> Spotify landing page
+# <span style="margin-right: 10px;"><img src="./src/assets/images/Spotify_icon.png" alt="Spotify" style="height: 2em; vertical-align: middle;"></span> Spotify landing page
 
 <div align="center">
   <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="48 items"/> 
