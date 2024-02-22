@@ -1,9 +1,9 @@
 import SongCard from "./SongCard/SongCard";
-import Hits from "../../../assets/images/hits.jpg"
-import Calming from "../../../assets/images/calming.jpg"
-import Pop from "../../../assets/images/pop.jpg"
-import Lofi from "../../../assets/images/lofi.jpg"
-import Indie from "../../../assets/images/indie.jpg"
+// import Hits from "../../../assets/images/hits.jpg"
+// import Calming from "../../../assets/images/calming.jpg"
+// import Pop from "../../../assets/images/pop.jpg"
+// import Lofi from "../../../assets/images/lofi.jpg"
+// import Indie from "../../../assets/images/indie.jpg"
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -13,31 +13,32 @@ function ContentBody() {
 		{
 			title: "Happy Hits!!",
 			description: "Hits to boost your mood and fill you with happiness!",
-      src: Hits || process.env.PUBLIC_URL + "/images/hits.jpg",
+      // src: Hits,
+			src: process.env.PUBLIC_URL + 'hits.jpg',
 			link: "https://open.spotify.com/playlist/37i9dQZF1DXdPec7aLTmlC"
 		},
 		{ 
 			title: "Calming Acoustic",
 			description: "Keep calm with instrumental acoustic tracks.",
-			src: Calming,
+      src: process.env.PUBLIC_URL + 'calming.jpg',
 			link: "https://open.spotify.com/playlist/37i9dQZF1DXaImRpG7HXqp"
 		},
 		{
 			title: "Pop Rising",
 			description: "Who's now and next in pop. Cover: Victoria Monét",
-			src: Pop,
+      src: process.env.PUBLIC_URL + 'pop.jpg',
 			link: "https://open.spotify.com/playlist/37i9dQZF1DWUa8ZRTfalHk"
 		},
 		{
 			title: "lofi chill",
 			description:"Lazy slow lofi beats for laid-back moments.",
-			src: Lofi,
+      src: process.env.PUBLIC_URL + 'lofi.jpg',
 			link: "https://open.spotify.com/playlist/37i9dQZF1DWYoYGBbGKurt"
 		},
 		{
 			title: "Indie Rock Hits",
 			description: "True indie rock hits.",
-			src: Indie,
+      src: process.env.PUBLIC_URL + 'indie.jpg',
 			link: "https://open.spotify.com/playlist/37i9dQZF1DXb9izPIc0SCS"
 		},	
 	];
