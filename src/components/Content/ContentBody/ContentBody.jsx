@@ -13,7 +13,7 @@ function ContentBody() {
 		{
 			title: "Happy Hits!!",
 			description: "Hits to boost your mood and fill you with happiness!",
-			src: Hits,
+      src: Hits || process.env.PUBLIC_URL + "/images/hits.jpg",
 			link: "https://open.spotify.com/playlist/37i9dQZF1DXdPec7aLTmlC"
 		},
 		{ 
