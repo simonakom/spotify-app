@@ -50,7 +50,7 @@ return (
           <a href="https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz" className="font-semibold text-zinc-400 text-sm px-5 pt-2 hover:underline">Show all</a>
         </div>
         <div className="flex flex-col">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-6 mx-5 my-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-6 mx-5 my-1">
             {songsArray.map((song, index) => (
               <SongCard
                 song={song}
