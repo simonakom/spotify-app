@@ -13,7 +13,7 @@ This is a simple React application - Spotify landing page, created using Create 
 
 Preview - <a href="https://simonakom.github.io/spotify-app/" style="font-size:small;">here</a>
 
-Check out the [live demo](https://simonakom.github.io/spotify-app).
+Check out the [live demo](https://simonakom.github.io/spotify-app)
 
  
 
