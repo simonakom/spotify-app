@@ -11,7 +11,7 @@
 
 This is a simple React application - Spotify landing page, created using React, Tailwind, Css.
 
-Preview - <a href="https://simonakom.github.io/spotify-app/build/index.html" style="font-size:small;">here</a>
+🔹 Preview - <a href="https://simonakom.github.io/spotify-app/build/index.html" style="font-size:small;">here</a>
  
 
 ## Getting Started
