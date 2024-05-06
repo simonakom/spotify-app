@@ -4,8 +4,8 @@ import Footer from "./components/Footer/Footer";
 
 function Layout() {
 	return (
-		<div className="flex p-2">
-			<div className="flex flex-col">
+		<div className="p-2">
+			<div className="overflow-hidden">
 				<div className="flex gap-2">
 					<LeftPanel />
 					<Content />

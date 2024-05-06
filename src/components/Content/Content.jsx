@@ -3,7 +3,7 @@ import ContentBody from "./ContentBody/ContentBody";
 
 function Content() {
 	return (
-		<div className="w-5/6 rounded-lg flex flex-col mb-2">
+		<div className="mb-2 w-screen content-margin">
 			<ContentHeader />
 			<ContentBody />
 		</div>

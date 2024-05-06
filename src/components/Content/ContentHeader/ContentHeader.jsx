@@ -7,7 +7,7 @@ function LeftButtons() {
 			<button className="bg-[#090909] rounded-full text-[#bab8b8] p-2 mr-2 not-allowed-cursor">
 				<LiaAngleLeftSolid className="text-lg" />
 			</button>
-			<button className="bg-[#090909] rounded-full text-[#bab8b8] p-2 not-allowed-cursor hidden md:inline-block">
+			<button className="bg-[#090909] rounded-full text-[#bab8b8] p-2 not-allowed-cursor hidden lg:inline-block">
 				<LiaAngleRightSolid className="text-lg" />
 			</button>
 		</div>
@@ -15,7 +15,7 @@ function LeftButtons() {
 }
 function RightButtons() {
     return (
-        <div className="pr-8 mb-2 flex items-center ml-20 overflow-hidden hide-buttons">
+        <div className="pr-8 mb-2 flex items-center ml-20 right-buttons">
 			<a href="https://www.spotify.com/es/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F">
        			<button className="bg-[#101010] text-[#a0a0a0] rounded-full font-semibold hover:text-white hover:scale-105 whitespace-nowrap mr-1 px-5 py-2 md:px-8 md:py-2">Sign up</button>
     		</a>
@@ -27,7 +27,7 @@ function RightButtons() {
 }
 function ContentHeader() {
 	return (
-		<div className="bg-[#101010] flex justify-between min-h-[62px] pt-2 rounded-t-lg">
+		<div className="bg-[#101010] flex justify-between min-h-[62px] pt-2 rounded-t-lg overflow-hidden">
 			<LeftButtons/>
 			<RightButtons/>
 		</div>

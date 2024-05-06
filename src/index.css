@@ -6,7 +6,6 @@ body {
 	background-color: black;
 	color: white;
 	max-height: 100vh;
-	overflow: hidden;
 }
 @layer components {
 	.linkInHeader {
@@ -31,13 +30,13 @@ body {
 	position: absolute;
 	z-index: 1;
 	width: 120px;
-	bottom: 130%;
+	bottom: 120%;
 	left: 45%;
 	margin-left: -60px;
 
 	/* Transition */
 	opacity: 0;
-	transition: opacity 0.5s ease; 
+	transition: opacity .5s; 
 }
 .tooltip:hover .tooltiptext {
 	visibility: visible;
@@ -57,11 +56,74 @@ body {
 .not-allowed-cursor {
 	cursor: not-allowed;
 }
-.footerBacground {
+.footer-background {
 background-image: linear-gradient(90deg,#af2896,#509bf5);
 }
-@media (max-width: 213px) {
-    .hide-buttons {
-        display: none;
-    }
+
+
+@media (max-width: 1017px) {
+	.content-margin {
+		padding-right: 350px !important;
+	}
 }
+@media screen and (max-width: 790px) {
+	.footer-button{
+		margin-right: 50px !important;
+	}
+}
+@media screen and (max-width: 767px) {
+	.content-margin {
+		padding-right: 0px !important;
+	}
+	body {
+	  zoom: 0.8; 
+	}
+  }
+
+  @media screen and (max-width: 633px) {
+	body {
+	  zoom: 0.7; 
+	}
+  }
+  @media (max-width: 540px) {
+	.footer-button {
+		margin-right: 90px !important;
+	}
+}
+  @media screen and (max-width: 509px) {
+	body {
+	  zoom: 0.6; 
+	}
+  }
+@media (max-width: 430px) {
+	.footer-button {
+		margin-right: 150px !important;
+	}
+}
+@media (max-width: 395px) {
+	.footer-button {
+		margin-right: 200px !important;
+	}
+}
+@media (max-width: 367px) {
+	.footer-button {
+		margin-right: 260px !important;
+	}
+}
+@media (max-width: 330px) {
+	.footer-button {
+		margin-right: 290px !important;
+	}
+	.right-buttons {
+		margin-left: 0px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
