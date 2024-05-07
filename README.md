@@ -1,6 +1,9 @@
 
 # <span><img src="./src/assets/images/spotify_icon.png" alt=spotify style="height: 2em; vertical-align: middle;"></span> "Spotify" landing page
 
+# <span style="margin-right: 10px;"><img src="./src/assets/images/Spotify_icon.png" alt="Spotify" style="height: 2em; vertical-align: middle;"></span> Spotify landing page
+
+
 <div align="center">
   <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="48 items"/> 
   <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20May%2007%2C%202024-267a60.svg" alt="Last update: February 15, 2024" /> 
