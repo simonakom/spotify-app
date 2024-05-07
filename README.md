@@ -1,5 +1,5 @@
 
-# <span><img src="./build/spotify_icon.png" alt=spotify style="height: 1em; vertical-align: middle;"></span> "Spotify" landing page
+# <span><img src="./src/assets/images/hits.jpg" alt=spotify style="height: 1em; vertical-align: middle;"></span> "Spotify" landing page
 
 <div align="center">
   <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="48 items"/> 
