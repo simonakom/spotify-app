@@ -24,7 +24,7 @@ function PanelFooter() {
 			</div>
 			<div className="mt-2">  
 				<a href="/"className="inline-block ml-4">Cookies</a>
-			</div>
+			</div> 
 		</div>
 		<div>
 			<LanguageButton/>

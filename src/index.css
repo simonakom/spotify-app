@@ -25,7 +25,6 @@ body {
 	border-radius: 4px;
 	padding: 5px;
 	font-size: 13px;
-	
 	/* Position the tooltip */
 	position: absolute;
 	z-index: 1;
@@ -33,7 +32,6 @@ body {
 	bottom: 120%;
 	left: 45%;
 	margin-left: -60px;
-
 	/* Transition */
 	opacity: 0;
 	transition: opacity .5s; 
@@ -57,9 +55,8 @@ body {
 	cursor: not-allowed;
 }
 .footer-background {
-background-image: linear-gradient(90deg,#af2896,#509bf5);
+	background-image: linear-gradient(90deg,#af2896,#509bf5);
 }
-
 
 @media (max-width: 1017px) {
 	.content-margin {
@@ -79,22 +76,21 @@ background-image: linear-gradient(90deg,#af2896,#509bf5);
 	  zoom: 0.8; 
 	}
   }
-
-  @media screen and (max-width: 633px) {
+@media screen and (max-width: 633px) {
 	body {
-	  zoom: 0.7; 
+		zoom: 0.7; 
 	}
-  }
-  @media (max-width: 540px) {
+}
+@media (max-width: 540px) {
 	.footer-button {
 		margin-right: 90px !important;
 	}
 }
-  @media screen and (max-width: 509px) {
+@media screen and (max-width: 509px) {
 	body {
-	  zoom: 0.6; 
+		zoom: 0.6; 
 	}
-  }
+}
 @media (max-width: 430px) {
 	.footer-button {
 		margin-right: 150px !important;

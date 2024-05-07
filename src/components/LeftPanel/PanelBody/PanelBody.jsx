@@ -3,7 +3,6 @@ import { GoPlus } from "react-icons/go";
 import { PiMusicNotesPlus } from "react-icons/pi";
 import { IoTriangleSharp } from "react-icons/io5";
 
-
 function CardComponent({ title, description, buttonText, link, showNewWindow }) {
 	return (
 	  <div className="bg-[#242424] py-4 px-5 rounded-lg mb-6">
@@ -16,23 +15,23 @@ function CardComponent({ title, description, buttonText, link, showNewWindow }) 
 	);
   }
 
-  function Dropdown({ openNewWindow }) {
+function Dropdown({ openNewWindow }) {
 	const [isOpen, setIsOpen] = useState(false);
-	
+
 	const toggleDropdown = () => {
-	  setIsOpen(!isOpen);
+		setIsOpen(!isOpen);
 	};
-  
+
 	const handleNewPlaylist = () => {
-	  openNewWindow();
-	  toggleDropdown();
+		openNewWindow();
+		toggleDropdown();
 	};
 	return (
 		<div>
 			<div className="tooltip" onClick={toggleDropdown}>
 				<GoPlus className="text-3xl rounded-full hover:bg-[rgba(118,117,117,0.16)] p-1 cursor-pointer"/>
 				<span className="tooltiptext">Create playlist or folder</span>
-		  	</div>
+			</div>
 			{isOpen && (
 				<div className="absolute top-48 mt-8 rounded shadow-xl shadow-[#151414] w-52 bg-[#242424]">
 					<ul className="text-white">
@@ -44,8 +43,8 @@ function CardComponent({ title, description, buttonText, link, showNewWindow }) 
 				</div>
 			)}
 		</div>
-	  );
-	}
+		);
+}
 
 function PanelBody() {
 	const [showNewWindow, setShowNewWindow] = useState(false);

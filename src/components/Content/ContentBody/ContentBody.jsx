@@ -44,29 +44,23 @@ function ContentBody() {
 	];
   
 return (
-  <div className="bg-gradient-to-b from-[#1f1f1f] to-[#121212] rounded-b-lg overflow-scroll overflow-x-hidden     2xl:min-h-[720px] xl:h-[665px] lg:h-[560px] md:h-[555px] sm:h-[550px] h-[530px]">
-
-
-    <div className="mt-1 flex justify-between">
-      <a href="/" className="font-semibold text-2xl px-5 my-1 hover:underline">Spotify Playlists</a>
-      <a href="/" className="font-semibold text-zinc-400 text-sm px-5 pt-2 hover:underline">Show all</a>
-    </div>
-
-
-    <div className="">
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-6 mx-5 my-1">
-        {songsArray.map((song, index) => (
-          <SongCard
-            song={song}
-            key={index}
-          />
-        ))}
+  <div className="bg-gradient-to-b from-[#1f1f1f] to-[#121212] rounded-b-lg overflow-scroll overflow-x-hidden 2xl:min-h-[720px] xl:h-[665px] lg:h-[560px] md:h-[555px] sm:h-[550px] h-[530px]">
+      <div className="mt-1 flex justify-between">
+        <a href="/" className="font-semibold text-2xl px-5 my-1 hover:underline">Spotify Playlists</a>
+        <a href="/" className="font-semibold text-zinc-400 text-sm px-5 pt-2 hover:underline">Show all</a>
       </div>
-    </div>
-
-
-        <div class="flex flex-col md:flex-row justify-between px-4 md:px-9 mt-20">
-        <div class="flex flex-col md:flex-row gap-4 md:gap-x-28">
+      <div className="">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-6 mx-5 my-1">
+            {songsArray.map((song, index) => (
+              <SongCard
+                song={song}
+                key={index}
+              />
+            ))}
+        </div>
+      </div>
+      <div class="flex flex-col gap-10 ms-10 md:flex-col lg:flex-col xl:flex-row justify-between px-4 md:pe-14 mt-20">
+        <div class="flex flex-col gap-y-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row 2xl:gap-x-48 xl:gap-x-20 lg:gap-x-28 md:gap-10 md:me-56">
             <div className="flex flex-col text-zinc-400 font-light gap-1">
               <p className="font-medium text-white pb-1">Company</p>
               <a href="/" className="hover:underline hover:text-white">About</a>
@@ -87,17 +81,15 @@ return (
               <a href="/" className="hover:underline hover:text-white" >Free Mobile App</a>
               <a href="/" className="hover:underline hover:text-white" >Consumer rights</a>
             </div>
-          </div>
-          <div class="flex gap-3 mt-10 md:mt-0">
-            <a href="/"><div className="rounded-full bg-zinc-800 p-3 inline-block hover:bg-neutral-600"><FaInstagram className="text-lg text-white" /></div></a>
-            <a href="/"><div className="rounded-full bg-zinc-800 p-3 inline-block hover:bg-neutral-600"><FaTwitter className="text-lg text-white" /></div></a>
-            <a href="/"><div className="rounded-full bg-zinc-800 p-3 inline-block hover:bg-neutral-600"><FaFacebook className="text-lg text-white" /></div></a>
-          </div>
         </div>
-
-
-        <hr className="border-1 border-zinc-700 my-10 mx-6" />
-        <p className="text-zinc-400 font-normal text-sm mx-8 mb-20">© 2024 Spotify AB</p>
+        <div class="flex gap-3 mt-10 md:mt-0">
+          <a href="/"><div className="rounded-full bg-zinc-800 p-3 inline-block hover:bg-neutral-600"><FaInstagram className="text-lg text-white" /></div></a>
+          <a href="/"><div className="rounded-full bg-zinc-800 p-3 inline-block hover:bg-neutral-600"><FaTwitter className="text-lg text-white" /></div></a>
+          <a href="/"><div className="rounded-full bg-zinc-800 p-3 inline-block hover:bg-neutral-600"><FaFacebook className="text-lg text-white" /></div></a>
+        </div>
+      </div>
+      <hr className="border-1 border-zinc-700 my-10 mx-6" />
+      <p className="text-zinc-400 font-normal text-sm mx-8 mb-20">© 2024 Spotify AB</p>
     </div>
   );
 }

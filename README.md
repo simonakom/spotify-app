@@ -1,15 +1,15 @@
 
-# <span style="margin-right: 10px;"><img src="./src/assets/images/spotify_icon.png" alt="Spotify" style="height: 2em; vertical-align: middle;"></span> Spotify landing page
+# <span><img src="./src/assets/images/spotify_icon.png" alt=spotify style="height: 1em; vertical-align: middle;"></span> "Spotify" landing page
 
 <div align="center">
   <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="48 items"/> 
-  <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20February%2005%2C%202024-267a60.svg" alt="Last update: February 15, 2024" /> 
+  <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20May%2007%2C%202024-267a60.svg" alt="Last update: February 15, 2024" /> 
   <img src="https://img.shields.io/badge/%E2%9C%94%20Updated%20For%20Version%20-%20Node%2020.10.0-187e25.svg" alt="Updated for Node 20.10.0"/>
 </div>
 
 ## Welcome!
 
-This is a simple responsive (up t0 320px) React application - Spotify landing page, created using React, Tailwind, Css.
+This is responsive (up to 320px) "Spotify" landing page, created using React, Tailwind, Css.
 
 🔹 Preview - <a href="https://simonakom.github.io/spotify-app/build/index.html" style="font-size:small;">here</a>
  
@@ -44,6 +44,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Hope you find this project interesting and useful!
 
+### Desktop version:
 <div style="text-align: start;">
   <img src="./src/assets/images/app.png" alt="Spotify" style="border-radius: 5px; display: inline-block; width: 700px; height: auto;" />
+
+### Mobile version:
+  <img src="./src/assets/images/app-responsive.png" alt="Spotify" style="border-radius: 5px; display: inline-block; width: 700px; height: auto;" />
 </div>
