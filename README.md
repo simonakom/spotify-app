@@ -46,8 +46,8 @@ Hope you find this project interesting and useful!
 
 ### Desktop version:
 <div>
-  <img src="./src/assets/images/app.png" alt="Spotify" style="border-radius: 5px; display: inline-block; width: 700px; height: auto;" />
+  <img src="./src/assets/images/app.png" alt="spotify" style="border-radius: 5px; display: inline-block; width: 700px; height: auto;" />
 
 ### Mobile version:
-  <img src="./src/assets/images/app-responsive.png" alt="Spotify" style="border-radius: 5px; display: inline-block; width: 700px; height: auto;" />
+  <img src="./src/assets/images/app-responsive.png" alt="spotify" style="border-radius: 5px; display: inline-block; width: 700px; height: auto;" />
 </div>
