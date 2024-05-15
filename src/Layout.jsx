@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer";
 
 function Layout() {
 	return (
-		<div className="p-2">
+		<div className="px-2 pt-2">
 			<div className="overflow-hidden">
 				<div className="flex gap-2">
 					<LeftPanel />
