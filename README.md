@@ -1,17 +1,17 @@
 
-# <span><img src="./src/assets/images/spotify.png" alt=spotify style="height: 1em; vertical-align: middle;"></span> "Spotify" landing page
+# <span><img src="./src/assets/images/spotify.png" alt=spotify style="height: 1em;"></span> "Spotify" landing page
 
-<div align="center">
-  <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="48 items"/> 
-  <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20May%2007%2C%202024-267a60.svg" alt="Last update: February 15, 2024" /> 
-  <img src="https://img.shields.io/badge/%E2%9C%94%20Updated%20For%20Version%20-%20Node%2020.10.0-187e25.svg" alt="Updated for Node 20.10.0"/>
+<div>
+  <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="license"/> 
+  <img src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20May%2007%2C%202024-267a60.svg" alt="last-update" /> 
+  <img src="https://img.shields.io/badge/%E2%9C%94%20Updated%20For%20Version%20-%20Node%2020.10.0-187e25.svg" alt="node"/>
 </div>
 
 ## Welcome!
 
 This is responsive (up to 320px) "Spotify" landing page, created using React, Tailwind, Css.
 
-🔹 Preview - <a href="https://simonakom.github.io/spotify-app/build/index.html" style="font-size:small;">here</a>
+🔹 Preview - <a href="https://simonakom.github.io/spotify-app/build/index.html">here</a>
  
 
 ## Getting Started
@@ -45,7 +45,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Hope you find this project interesting and useful!
 
 ### Desktop version:
-<div style="text-align: start;">
+<div>
   <img src="./src/assets/images/app.png" alt="Spotify" style="border-radius: 5px; display: inline-block; width: 700px; height: auto;" />
 
 ### Mobile version:
